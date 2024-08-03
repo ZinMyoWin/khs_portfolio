@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+  --Heading: #1d1d1d;
+  --font: "DM Sans";
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  /* background-color: red; */
+  gap: 92px;
+}
+
+.hero-sub-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.down-arrow-container {
+  position: relative;
+  height: 10%;
+  width: 80%;
+}
+.hero-down-arrow {
+  position: absolute;
+  bottom: -20%;
+  width: 40px;
+  height: 40px;
+}
+.hero-left {
+  display: flex;
+  width: 429px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.hero-right {
+  width: 602px;
+}
+.hero-img {
+  width: 118px;
+  height: 118px;
+}
+.hero-left .hero-intro {
+  color: var(--Heading, #1d1d1d);
+  margin: 0;
+  font-family: "DM Sans";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97.2%; /* 58.32px */
+  letter-spacing: -1.8px;
+}
+.hero-right .hero-intro {
+  margin: 0 0 0 0;
+
+  color: var(--body, #3c3c3c);
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+/* 
+Contact
+*/
+
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 175px;
+}
+.contact-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-msg {
+  width: 347px;
+  height: 71px;
+  flex-shrink: 0;
+  color: var(--Main-Black, #181717);
+
+  /* Heading-2 */
+  font-family: var(--font);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117%; /* 37.44px */
+  letter-spacing: -0.96px;
+}
+.contact-msg::after {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 19px;
+  background-image: url("../../assets/icons/right-pointer-arrow.png");
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+.contact-email {
+  color: var(--Main-Black, #181717);
+
+/* Heading-2 */
+font-family: "DM Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 117%; /* 37.44px */
+letter-spacing: -0.96px;
+}
