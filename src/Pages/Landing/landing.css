@@ -5,6 +5,9 @@
   --font: "DM Sans";
 }
 
+.main-container {
+  background-color: rgb(255, 255, 255);
+}
 .hero {
   width: 100%;
   display: flex;
@@ -116,18 +119,18 @@ Contact
   display: inline-block;
   width: 22px;
   height: 19px;
-  background-image: url("../../assets/icons/right-pointer-arrow.png");
+  background-image: url("../../assets/icons/right-pointer-arrow.svg");
   background-size: cover;
   mix-blend-mode: multiply;
 }
 .contact-email {
   color: var(--Main-Black, #181717);
 
-/* Heading-2 */
-font-family: "DM Sans";
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: 117%; /* 37.44px */
-letter-spacing: -0.96px;
+  /* Heading-2 */
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117%; /* 37.44px */
+  letter-spacing: -0.96px;
 }
