@@ -22,7 +22,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 80%;
-  height: 467px;
+  height: auto;
   gap: 100px;
 }
 .project-sub-container {
@@ -40,6 +40,7 @@
 .project-intro-container {
   display: flex;
   flex-direction: column;
+  height: max-content;
   gap: 24px;
 }
 .project-title {
@@ -86,4 +87,117 @@ img {
   width: 100%;
   height: 2px;
   background-color: var(--Heading);
+}
+
+@media (max-width: 1300px) {
+  .project {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    gap: 100px;
+    margin-bottom: 70px;
+  }
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+  }
+  .project-sub-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    /* justify-content: space-between; */
+  }
+  .project-detail-container {
+    width: 100%;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .project-intro-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: max-content;
+  }
+  .project-title {
+    color: var(--Heading, #1d1d1d);
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.5%; /* 21.87px */
+    letter-spacing: -0.54px;
+  }
+  .project-intro {
+    color: var(--body, #3c3c3c);
+    text-align: justify;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 121.5%; /* 21.87px */
+    letter-spacing: -0.54px;
+  }
+  .project-link {
+    color: var(--Heading);
+
+    /* Sub Header / Link */
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.5%; /* 21.87px */
+    letter-spacing: -0.54px;
+    text-decoration-line: underline;
+  }
+  .project-img-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-img-container {
+    height: 300px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-container {
+    gap: 50px;
+  }
+  .project-img-container {
+    height: 250px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 320px) {
+  .project-img-container {
+    height: 200px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 280px) {
+  .project-img-container {
+    height: 180px;
+    overflow: hidden;
+  }
 }
