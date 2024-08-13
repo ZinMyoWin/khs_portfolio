@@ -41,6 +41,7 @@
 }
 .hero-down-arrow {
   position: absolute;
+  z-index: 1;
   bottom: -20%;
   width: 40px;
   height: 40px;
@@ -358,6 +359,11 @@ Contact
 }
 
 @media (max-width: 360px) {
+
+  .hero-left .hero-intro {
+    font-size: 30px;
+  }
+
   .contact-msg {
     width: 80%;
     font-size: 16px;

@@ -18,13 +18,13 @@ export default function Navbar() {
           </div>
           <div className='nav-links-container'>
             <div className='nav-link'>
-              <a href='#'>Work</a>
+              <a href='#project'>Work</a>
             </div>
             <div className='nav-link'>
               <a href='#'>About</a>
             </div>
             <div className='nav-link'>
-              <a href='#'>Contact</a>
+              <a href='#contact'>Contact</a>
             </div>
           </div>
         
@@ -42,7 +42,7 @@ export default function Navbar() {
             <div className='hamburger-nav-link'>
               <a href='#'>Contact</a>
             </div>
-          </div>
+        </div>
       </div>
   );
 }

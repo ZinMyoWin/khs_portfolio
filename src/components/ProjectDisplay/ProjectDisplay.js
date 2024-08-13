@@ -5,7 +5,7 @@ export default function ProjectDisplay() {
   const project = project_data;
 
   return (
-    <div className='project'>
+    <div className='project' id="project">
       {project.map((data) => (
         <div key={data.id} className='project-container'>
           <div className='project-sub-container'>

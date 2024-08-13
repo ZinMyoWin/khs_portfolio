@@ -35,17 +35,16 @@ export default function Landing() {
 
       <ProjectDisplay />
 
-      <div className='contact'>
+      <div className='contact' id='contact'>
         <div className='contact-container'>
-          <div className='contact-msg'>I am thrilled to answer to your next project </div>
+          <div className='contact-msg'>
+            I am thrilled to answer to your next project{" "}
+          </div>
           <div className='contact-email'>kaunghtikes726@gmail.com</div>
         </div>
       </div>
 
-
-      <Footer/>
+      <Footer />
     </div>
-
-    
   );
 }

@@ -23,7 +23,7 @@
 }
 
 .footer-logo {
-  color: var(--Secondary, #2429af);
+  color:  #181717;
   width: 50%;
   /* Navigation */
   font-family: "DM Sans";
@@ -72,7 +72,7 @@ justify-content:flex-end;
   width: 80%;
 }
   .footer-logo {
-    color: var(--Secondary, #181717);
+    color: var( #181717);
     width: 45%;
     height: 50px;
 
